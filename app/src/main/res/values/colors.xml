@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="baseColor">#0D0C0C</color>
+
+    <color name="primaryColor">#8BD5FF</color>
+    <color name="primaryOnTop">#55B5FA</color>
+    <color name="primaryOnBottom">#3C8FDB</color>
+
+    <color name="secondaryColor">#07193A</color>
+    <color name="secondaryOnTop">#354465</color>
+    <color name="secondaryOnBottom">#07193A</color>
+    <color name="secondaryButton">#326CFF</color>
+
+    <!-- Onboard Color -->
+    <color name="onboard_headline_color">#DADADA</color>
+    <color name="onboard_desc_color">#797979</color>
+    <color name="onboard_button_color">#42C83C</color>
+    <color name="onboard_button_text_color">#F6F6F6</color>
+
+    <!-- Theme Button Color -->
+    <color name="theme_button_background">#26282B</color>
+
+    <!-- Artist Page Color -->
+    <color name="artist_background">#1C1B1B</color>
+    <color name="artist_background_cardview">#343434</color>
+    <color name="playlist_color">#DBDBDB</color>
+    <color name="see_more_color">#C6C6C6</color>
+
+    <!-- Register or Signup -->
+    <color name="register_or_signup">#1C1B1B</color>
+    <color name="register_decs">#A0A0A0</color>
+    <color name="register_headline">#F2F2F2</color>
+
+    <!-- Sign İn -->
+    <color name="sign_up">#1C1B1B</color>
+    <color name="click_here">#E1E1E1</color>
+    <color name="username_password">#A7A7A7</color>
+    <color name="recovery">#AEAEAE</color>
+    <color name="apple">#D3D3D3</color>
+    <color name="blue">#0000FF</color>
+    <color name="green">#42C83C</color>
+    <color name="search">#CFCFCF</color>
+    <color name="music_name">#DFDFDF</color>
+    <color name="artist_name">#BABABA</color>
+    <color name="music_page_time">#878787</color>
+    <color name="lyrics_color">#B9B9B9</color>
+
+</resources>

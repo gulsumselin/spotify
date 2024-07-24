@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Button Texts -->
+    <string name="button_continue">Continue</string>
+
+    <!-- OnBoard 1 Texts -->
+    <string name="onboard_1_headline">Enjoy Listening To Music</string>
+    <string name="onboard_1_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis enim purus sed phasellus. Cursus ornare id scelerisque aliquam.</string>
+    <string name="onboard_1_button">Get Started</string>
+
+    <!-- OnBoard 2 Texts -->
+    <string name="onboard_2_headline">Choose Mode</string>
+    <string name="onboard_2_dark_mode">Dark Mode</string>
+    <string name="onboard_2_light_mode">Light Mode</string>
+
+    <!-- Artist Page Texts -->
+    <string name="artist_profile">Profile</string>
+    <string name="artist_follower">Follower</string>
+    <string name="artist_follow">Following</string>
+    <string name="artist_public_playlist">Musics</string>
+    <string name="register">Register</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="register_headline">Enjoy Lİstening To Music</string>
+    <string name="register_desc">"Spotify is a proprietary Swedish audio streaming and media services provider "</string>
+    <string name="username_or_email">username or email</string>
+    <string name="password">password</string>
+
+    <string name="support">"If you need any support "</string>
+    <string name="recovery_password">recovery password</string>
+    <string name="member">Not I Member?</string>
+    <string name="a_member">Do you have an account?</string>
+    <string name="register_now">Register Now</string>
+    <string name="click_here">click here</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="create_account">Create Account</string>
+    <string name="news">News</string>
+    <string name="video">Video</string>
+    <string name="artist">Artist</string>
+    <string name="playlist">Playlist</string>
+    <string name="see_more">See More</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="lyrics">Lyrics</string>
+    <string name="verse_1">(Verse 1)</string>
+    <string name="verse_2">(Verse 2)</string>
+</resources>

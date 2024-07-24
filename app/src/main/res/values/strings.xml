@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name" translatable="false">Spotify - Clone</string>
+    <string name="developer_mail" translatable="false">selin_mengi@hotmail.com</string>
+    <string name="developer_name" translatable="false">Gülsüm Selin MENGİ</string>
+
+    <!-- Button Texts -->
+    <string name="button_continue">Devam Et</string>
+
+    <!-- OnBoard 1 Texts -->
+    <string name="onboard_1_headline">Yeni Nesil Müzik</string>
+    <string name="onboard_1_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis enim purus sed phasellus. Cursus ornare id scelerisque aliquam.</string>
+    <string name="onboard_1_button">Eğlenceye Atıl</string>
+
+    <!-- OnBoard 2 Texts -->
+    <string name="onboard_2_headline">Temanızı Seçin</string>
+    <string name="onboard_2_dark_mode">Koyu Mod</string>
+    <string name="onboard_2_light_mode">Açık Mod</string>
+
+    <!-- Artist Page Texts -->
+    <string name="artist_profile">Profil</string>
+    <string name="artist_follower">Takipçi</string>
+    <string name="artist_follow">Takip Edilen</string>
+    <string name="artist_public_playlist">Müzikler</string>
+
+    <!-- Register or Signup-->
+    <string name="register">Kayıt Ol</string>
+    <string name="sign_up">Giriş Yap</string>
+    <string name="register_headline">Müzik Dinlemeyi Seviyorum</string>
+    <string name="register_desc">Spotify İsvece ait.</string>
+
+    <!-- Sign İn -->
+
+    <string name="support">Destek için</string>
+    <string name="click_here">buraya tıklayınız</string>
+    <string name="username_or_email">Kullanıcı Adı veya Email</string>
+    <string name="password">Şifre</string>
+    <string name="recovery_password">Şifreyi Sıfırla</string>
+    <string name="member">Üye değil misin?</string>
+    <string name="a_member">Hesabın var mı?</string>
+    <string name="register_now">Hemen Üye ol.</string>
+    <string name="username">Kullanıcı Adı</string>
+    <string name="email">Email</string>
+    <string name="create_account">Hesap Oluştur</string>
+    <string name="news">Haberler</string>
+    <string name="video">Video</string>
+    <string name="artist">Sanatçı</string>
+    <string name="playlist">Çalma Listesi</string>
+    <string name="see_more">Daha Fazla Gör</string>
+    <string name="now_playing">Şuan Çalıyor</string>
+    <string name="lyrics">Şarkı Sözleri</string>
+    <string name="verse_1">(Kıta 1)</string>
+    <string name="verse_2">(Kıta 2)</string>
+
+
+
+</resources>

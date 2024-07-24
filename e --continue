@@ -1,0 +1,18 @@
+*   [33m0ed8f01[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m Merge remote-tracking branch 'origin/master'
+[31m|[m[32m\[m  
+[31m|[m [32m|[m * [33m04546ed[m[33m ([m[1;31morigin/master[m[33m)[m Merge remote-tracking branch 'origin/master'
+[31m|[m [32m|[m[31m/[m[32m|[m 
+[31m|[m[31m/[m[32m|[m[32m/[m  
+[31m|[m * [33mfdec7a0[m item,homepage music eklemesi.
+* [34m|[m [33m08beb47[m MusicDashboard düzenlemesi
+[34m|[m[34m/[m  
+*   [33m7d15144[m Merge remote-tracking branch 'origin/master'
+[35m|[m[36m\[m  
+[35m|[m * [33m96bfdf0[m home page arayüzü eklendi
+* [36m|[m [33mc286cd0[m music_page.xml eklendi
+[36m|[m[36m/[m  
+* [33m8f8fcc8[m arayüz düzenlemeleri yapıldı
+* [33mcb274ae[m 2 arayüz daha eklendi
+* [33m5b15445[m register or sign up arayüzü tasarlandı
+* [33m8b446db[m Added
+* [33mffdacbd[m[33m ([m[1;31morigin/main[m[33m)[m Initial commit

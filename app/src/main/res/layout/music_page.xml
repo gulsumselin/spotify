@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/artist_background"
+    android:fitsSystemWindows="true"
+    tools:context=".UI.Screens.Music.MusicDashboard">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/search"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1.0"
+                android:layout_height="match_parent"
+                android:text="@string/now_playing"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/ikon_vertical_triple_dot"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/billie_now"
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/billie_now"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/musicNameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:gravity="bottom"
+        android:text="Bad Guy"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/music_name"
+        app:layout_constraintTop_toBottomOf="@+id/billie_now"
+        android:layout_marginStart="25dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:gravity="bottom"
+        app:layout_constraintTop_toBottomOf="@+id/musicNameTextView"
+        android:text="Billie Eilish"
+        android:textSize="18sp"
+        android:textColor="@color/artist_name"
+        android:layout_marginStart="25dp"
+        />
+
+    <ImageView
+        android:id="@+id/heartImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginEnd="40dp"
+        android:gravity="bottom|right"
+        android:src="@drawable/heart_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/billie_now"
+        tools:layout_editor_absoluteY="460dp" />
+
+    <ImageView
+        android:id="@+id/seventy"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ikon_theme_sun"
+        android:layout_marginRight="5dp"
+        app:layout_constraintEnd_toStartOf="@id/musicNameTextView"
+        app:layout_constraintTop_toBottomOf="@+id/billie_now"
+        android:gravity="center"/>
+
+
+    <LinearLayout
+        android:id="@+id/progress_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="@+id/timeView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/musicNameTextView">
+
+    <ImageView
+        android:id="@+id/line_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp"
+        android:src="@drawable/line_2" />
+
+    <ImageView
+        android:id="@+id/seekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/ellipse_6" />
+
+    <ImageView
+        android:id="@+id/line_end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="25dp"
+        android:src="@drawable/line_1" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/timeView"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:orientation="horizontal"
+        android:gravity="start"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.8">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2:25"
+            android:textColor="@color/music_page_time"
+            android:fontFamily="@font/font_satoshi"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4:02"
+            android:textColor="@color/music_page_time"
+            android:fontFamily="@font/font_satoshi"
+            android:textSize="10sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/music_change"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:gravity="start"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9">
+
+        <ImageView
+            android:id="@+id/repeate"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/repeate"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/previous"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/previous"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ellipse_green"
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:id="@+id/pause"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/pause"
+                android:layout_gravity="center"/>
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/next"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/next"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/shuffle"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/shuffle"
+            android:layout_gravity="center|end"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:gravity="start"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1">
+
+        <ImageView
+            android:id="@+id/lyrics"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:src="@drawable/left"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="@string/lyrics"
+            android:textColor="@color/lyrics_color">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
